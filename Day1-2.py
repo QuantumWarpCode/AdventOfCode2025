@@ -1,4 +1,4 @@
-global zeros = 0
+global zeros
 
 def rleft(i):
     o = i - 1
@@ -36,6 +36,7 @@ def rotate(i, line):
     return o
 
 def main():
+    zeros = 0
     r = 50
     print(r)
     print("")
