@@ -1,7 +1,6 @@
-zeros = 0
+global zeros = 0
 
 def rleft(i):
-    global zeros
     o = i - 1
     if o == -1:
         o = 99
@@ -11,7 +10,6 @@ def rleft(i):
     return o
     
 def rright(i):
-    global zeros
     o = i + 1
     if o == 100:
         o = 0
@@ -38,7 +36,6 @@ def rotate(i, line):
     return o
 
 def main():
-    global zeros
     r = 50
     print(r)
     print("")
