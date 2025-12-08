@@ -30,9 +30,6 @@ def checkCell(grid, length, height, x, y):
         else:
             return "@"
 
-def testCheckCell(grid, length, height, x, y):
-    return getCellString(grid, length, height, x, y)
-
 def printGrid(grid, length):
     printString = ""
     for i in range(0, len(grid)):
