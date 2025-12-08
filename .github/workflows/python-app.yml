@@ -50,3 +50,5 @@ jobs:
         pytest Day6-2.py
         pytest Day7.py
         pytest Day7-2.py
+        pytest Day8.py
+        pytest Day8-2.py
