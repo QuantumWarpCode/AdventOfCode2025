@@ -79,5 +79,9 @@ def main():
         answer += rangeE[i] - rangeS[i] + 1
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 352807801032167
 
 main()

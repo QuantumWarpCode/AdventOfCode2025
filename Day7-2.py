@@ -56,5 +56,9 @@ def main():
         answer += i
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 53916299384254
 
 main()

@@ -45,5 +45,9 @@ def main():
         answer += splits
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 1658
 
 main()

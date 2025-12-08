@@ -32,5 +32,9 @@ def main():
         answer += getBank(bank)
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 167523425665348
 
 main()

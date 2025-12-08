@@ -89,5 +89,9 @@ def main():
     
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 8484
 
 main()

@@ -48,5 +48,9 @@ def main():
         answer += tAnswer
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 4805473544166
 
 main()

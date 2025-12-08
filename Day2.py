@@ -26,5 +26,9 @@ def main():
                 answer += i
     
     print("\n" + str(answer))
+    return answer
+
+def test_main():
+    assert main() == 53420042388
 
 main()

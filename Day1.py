@@ -27,5 +27,9 @@ def main():
         if r == 0:
             zeros += 1
     print(zeros)
+    return zeros
+
+def test_main():
+    assert main() == 1195
 
 main()

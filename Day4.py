@@ -63,5 +63,9 @@ def main():
             answer += 1
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 1467
 
 main()

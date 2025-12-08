@@ -29,9 +29,13 @@ def main():
                 answer += i
     
     print("\n" + str(answer))
+    return answer
     
     #for i in range(9999, 10001):
     #    if checkSerial(i):
     #       answer += i
+
+def test_main():
+    assert main() == 69553832684
 
 main()

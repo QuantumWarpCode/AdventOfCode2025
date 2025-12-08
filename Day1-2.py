@@ -55,5 +55,9 @@ def main():
         print(f + " " + str(r))
         #print("")
     print(zeros)
+    return zeros
+
+def test_main():
+    assert main() == 6770
 
 main()

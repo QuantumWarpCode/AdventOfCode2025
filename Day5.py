@@ -35,5 +35,9 @@ def main():
                     counted = True
                     answer += 1
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 698
 
 main()

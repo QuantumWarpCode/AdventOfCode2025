@@ -41,5 +41,9 @@ def main():
     answer += currentVal
     
     print(answer)
+    return answer
+
+def test_main():
+    assert main() == 8907730960817
 
 main()
