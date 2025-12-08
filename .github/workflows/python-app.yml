@@ -36,4 +36,17 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+        pytest Day1.py
+        pytest Day1-2.py
+        pytest Day2.py
+        pytest Day2-2.py
+        pytest Day3.py
+        pytest Day3-2.py
+        pytest Day4.py
+        pytest Day4-2.py
+        pytest Day5.py
+        pytest Day5-2.py
+        pytest Day6.py
+        pytest Day6-2.py
+        pytest Day7.py
+        pytest Day7-2.py
